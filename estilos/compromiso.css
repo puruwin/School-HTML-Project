@@ -1,0 +1,43 @@
+/*Principal*/
+#principal {
+    background-color: #b6ebe9;
+    margin-left: 30%;
+    padding-bottom: 40%;
+}
+#compbocadillo {
+    background-color: #ffffff;
+    border-radius: 25px;
+    opacity: 0.5;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    position: absolute; 
+    width: 31%;
+}
+#comp {
+    float: left;
+    font-family: arial;
+	margin-left: 3%;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 21%;
+	width: 30%;
+}
+#comp ul {
+    list-style-type: none;
+    margin-top: 50px;
+    text-align: center;
+}
+#comp ul li {
+    margin: 30px 0px 30px 0px;
+}
+#comp li a {
+	color: #000000;
+	font-family: arial;
+    text-decoration: none;
+}
+#comp li a:hover {
+	color: #2f8f8c;
+	font-weight: bold;
+}

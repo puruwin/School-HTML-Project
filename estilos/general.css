@@ -1,0 +1,111 @@
+/*Reset CSS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Para establecer la letra a Arial*/
+p {
+    font-family:arial;
+}
+
+/*Todo lo que envuelve a la cabecera*/
+#cabecera {
+    background-color: #716AA2;
+	height: 75px;
+    padding-left: 50px;
+}
+#cabecera ul {
+	list-style-type: none;
+}
+#cabecera li {
+	position: absolute;
+	display: inline;
+}
+#cabecera li img {
+	position: absolute;
+	margin-left: 175px;
+	height: 100px;
+	width: 100px;
+}
+
+#textheader {
+	font-family: sans-serif;
+	color: #000000;
+	margin-top: 20px;
+}
+
+/*El menú de navegación*/
+#navegacion {
+	background-color: #24292E;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+#navegacion ul {
+	list-style-type: none;
+	margin-top: 16px;
+	text-align: center;
+}
+#navegacion li {
+	display: inline;
+	font-family: arial;
+	text-align: center;
+}
+#navegacion li a {
+	padding: 12px 19px 12px 19px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #24292E;
+	text-decoration: none;
+}
+#navegacion li a:hover {
+	color: #a7a7a7;
+}
+#navegacion li a.active {
+	padding: 12px 19px 12px 19px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #2F2769;
+	text-decoration: none;
+}
+
+/*Pie*/
+#pie {
+	clear: both;
+	background-color: #24292E;
+	padding-top: 10%;
+	padding-bottom: 3%;
+
+}
+#nav {
+	margin-left: 1%;
+	float: left;
+}
+#nav ul {
+	list-style-type: none;
+}
+#nav li {
+	padding: 15px 0px 15px 0px;
+	font-family: arial;
+}
+#nav li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#nav li a:hover {
+	color: #a7a7a7;
+}
+
+#video {
+	margin-left: 50%;
+}
+#video p a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#video p a:hover {
+	color: #a7a7a7;
+}
+
+
