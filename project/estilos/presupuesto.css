@@ -1,0 +1,95 @@
+/*Cajitas*/
+article{
+    background-color: rgb(221, 221, 221);
+    box-sizing:border-box;
+    border-style: hidden;
+    border-bottom-style: solid;
+    border-bottom-color: #16eaff;
+    border-bottom-width: 6px;
+    float: left;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1% 1% 1% 35%;
+    height: 700px;
+    width: 31%;
+    text-align: center;
+    transition: 0.3s;
+}
+article:hover {
+    border-bottom-color: #ff7a19;
+}
+article h2{
+    color: #16eaff;
+    text-align: center;
+}
+.markarticle {
+    background-color: transparent;
+    text-shadow: 0 0 3px #000;
+}
+.input, .btn_submit, .btn_reset {
+    background-color: #efefef;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: solid #c8c8c8 3px;
+    transition: all .5s;
+}
+.input:hover {
+    border-bottom: solid #ff7a19 3px;
+}
+.input:focus {
+    border-bottom: solid #16eaff 3px;
+}
+.input:required {
+    border-bottom: solid #c42003 3px;
+}
+.input:required:focus {
+    border-bottom: solid #16eaff 3px;
+}
+.input:required:hover {
+    border-bottom: solid #ff7a19 3px;
+}
+
+.btn_submit, .btn_reset {
+    width: 40%;
+    border-bottom: none;
+    background-color: #31b1e5;
+    color: white;
+}
+.btn_reset {
+    background-color: #ff7a19;
+}
+
+.btn_submit:hover {
+    background-color: #4c9ed9;
+}
+
+.btn_reset:hover {
+    background-color: #d36517;
+}
+#formbox {
+    max-width: 480px;
+    height: auto;
+    background-color: rgb(221, 221, 221);
+    margin: 5% auto;
+    padding-bottom: 16px;
+}
+#formulario {
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+figcaption {
+	background-color:#79f4ff;
+	margin:5px;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:1px;
+	border-color:#ff7a19;
+	padding:5px;
+	font-family:arial;
+	font-size:12px;
+	color:#000;
+	text-align:center;
+}

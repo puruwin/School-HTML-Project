@@ -7,15 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
     <link rel="stylesheet" href="estilos/reset.css"/>
     <link rel="stylesheet" href="estilos/general.css"/>
-    <link rel="stylesheet" href="estilos/index.css"/>
-    <link rel="stylesheet" href="estilos/menugeneral.css"/>
+    <link rel="stylesheet" href="estilos/presupuesto.css"/>
     <link rel="icon" type="image/png" href="media/images/favicon.png"/>
     <meta name="description" content="Proyecto HMTL5"/>
     <meta name="keywords" content="HMTL5, CSS3, IES Pere Maria"/>
     <meta charset="utf-8" />
 
 </head>
-
 <body>
     <div id="wrapper">
         <header id="head">
@@ -43,74 +41,52 @@
         <section id="main_section">
             <article>
                 <section>
-                    <h2><mark class="markarticle">Climatización</mark></h2>
-                    <figure>
-                        <img src="media/images/climatizacion.jpg" alt="Climatización" height="275"/>
-                        <figcaption>
-                            Instalación y mantenimiento de sistemas de climatización.
-                        </figcaption>
-                    </figure>
-                </section>
-            </article>
-            <article>
-                <section>
-                    <h2><mark class="markarticle">Calefacción</mark></h2>
-                    <figure>
-                        <img src="media/images/calefaccion.jpg" alt="Calefacción" height="275"/>
-                        <figcaption>
-                            Instalación y mantenimiento de sistemas de calefacción eléctrica y combustible.
-                        </figcaption>
-                    </figure>
-                </section>
-            </article>
-            <article>
-                <section>
-                    <h2><mark class="markarticle">Fontanería</mark></h2>
-                    <figure>
-                        <img src="media/images/fontaneria.jpg" alt="Fontanería" height="275"/>
-                        <figcaption>
-                            Trabajos de fontanería y agua caliente sanitaria.
-                        </figcaption>
+                    <h2><mark class="markarticle">Tu Contacto</mark></h2>
+                    <figure id="formbox">
+                        <form id="formulario" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi">
+                        <input type="hidden" id="recipient" name="recipient" value="taborlindp@gmail.com"/>
+                        <input class="input" type="text" name="nombre" placeholder="&#128100; Nombre" required autofocus/>
+                        <input class="input" type="text" name="direccion" placeholder="&#128100; Dirección" required/>
+                        <input class="input" type="tel" name="tlf" placeholder="&#128222;Teléfono" maxlength="9" required/>
+                        <input class="input" type="email" name="mail" placeholder="&#128234; Email" multiple required/>
+                        <label for="fec_visita">Fecha de la visita:</label>
+                        <input class="input" type="date" name="fec_visita" id="fec_visita"/>
+                        <label for="servicio">Qué servicio quieres contratar:</label>
+                        <select class="input" name="servicio" id="servicio">
+                            <option value="climatizacion">Climatización</option>
+                            <option value="calefaccion">Calefacción</option>
+                            <option value="fontaneria">Fontanería</option>
+                            <option value="analisis" selected>Análisis</option>
+                            <option value="electricidad">Electricidad</option>
+                            <option value="pintura">Pintura</option>
+                        </select>
+                        <label for="hora">¿A qué hora podemos encontrarte en casa?</label>
+                        <select class="input" name="hora" id="hora">
+                            <option value="manyana" selected>Por la mañana</option>
+                            <option value="tarde">Por la tarde</option>
+                            <option value="llamame">Mejor llámame</option>
+                        </select>
+                        <label>¿Reparación o instalación?</label>
+                        <label class="radiostyle">Instalación
+                            <input type="radio" name="repar_inst" id="repar_inst" value="instalacion" checked/>
+                        </label>
+                        <label>Reparación
+                            <input type="radio" name="repar_inst" id="repar_inst" value="reparacion"/>
+                        </label>
+                        <label for="masinfor">Dános más información:
+                            <input class="input" type="textarea" id="masinfor" name="masinfor" rows="5" cols="20">
+                            </input>
+                        </label>
+                        <div id="btn_form">
+                            <input class="btn_submit" type="submit" value="ENVIAR">
+                            <input class="btn_reset" type="reset" value="LIMPIAR">
+                        </div>
                     </figure>
                 </section>
             </article>
             <div id="hueco">
                 <!--clear both-->
             </div>
-            <article>
-                <section>
-                    <h2><mark class="markarticle">Análisis</mark></h2>
-                    <figure>
-                        <img src="media/images/analisis.jpg" alt="Análisis" height="275"/>
-                        <figcaption>
-                            Análisis enérgetico y de calidad del agua.
-                        </figcaption>
-                    </figure>
-                </section>
-            </article>
-            <article>
-                <section>
-                    <h2><mark class="markarticle">Electricidad</mark></h2>
-                    <figure>
-                        <img src="media/images/electricidad.jpg" alt="Electricidad" height="275"/>
-                        <figcaption>
-                            Trabajos eléctricos en media y baja tensión.
-                        </figcaption>
-                    </figure>
-                </section>
-            </article>
-            <article>
-                <section>
-                    <h2><mark class="markarticle">Pintura</mark></h2>
-                    <figure>
-                        <img src="media/images/pintura.jpg" alt="Pintura" height="275"/>
-                        <figcaption>
-                            Pintura y decoraciones de escayola o pladur.
-                        </figcaption>
-                    </figure>
-                </section>
-            </article>
-        </section>
         <footer id="foot">
             <a href="mailto:taborlindp@gmail.com">&#9993;¡Contacta con nosotros!</a>
             <p></p>
