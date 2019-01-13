@@ -102,3 +102,6 @@ mark{
 #foot a{
     color: #a7a7a7;
 }
+#foot a:hover{
+    color: #00a3b2;
+}
