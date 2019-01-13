@@ -9,7 +9,7 @@ a{
 p {
     font-family: "Ubuntu", sans-serif;
 }
-h1{ 
+h1{
     font-family: "Lato", sans-serif
 }
 mark{
@@ -86,11 +86,14 @@ mark{
 	background-color: #00A3B2;
 	text-decoration: none;
 }
+/*Sección*/
+#main_section {
+    padding: 5% 0 5% 0;
+}
 /*Huecos*/
 #hueco {
     clear:both
 }
-
 /*Pie*/
 #foot {
     background-color: #24292E;
