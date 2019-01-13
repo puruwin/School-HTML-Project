@@ -22,15 +22,27 @@ article h2{
     color: #16eaff;
     text-align: center;
 }
+article audio{
+    margin-top: 22%;
+}
+figure a{
+    color: black;
+    text-decoration: none;
+}
+figure a:hover{
+    color: #1E8796;
+}
+figure p{
+    margin: 50px 0 50px 0;
+}
 .markarticle {
     background-color: transparent;
     text-shadow: 0 0 3px #000;
 }
-#manifiestotext{
-    text-align: justify;
+#bricovideo{
+    text-align: center;
 }
-#manifiesto{
-    height: 210px;
+#video{
     margin-left: 34%;
 }
 figcaption {
