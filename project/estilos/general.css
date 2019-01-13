@@ -15,6 +15,12 @@ h1{
 mark{
 	    color:#FF7A19;
 }
+.fill-div{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
 .h2enlace {
     color:#FF7A19;
     transition:0.2s;
@@ -91,7 +97,7 @@ mark{
     padding: 5% 0 5% 0;
 }
 /*Huecos*/
-#hueco {
+.hueco {
     clear:both
 }
 /*Pie*/
