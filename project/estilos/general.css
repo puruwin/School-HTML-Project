@@ -138,15 +138,51 @@ article{
     padding: 1rem 1rem 1rem 1rem;
     margin-right: 50px;
     margin-bottom: 50px;
+    height: 400px;
     width: 40%;
     transition: 0.3s;
 }
 article:hover {
     border-bottom-color: #ff7a19;
 }
-
 article h2{
 	color: #16eaff;
+}
+#boxservicios{
+    background-image: url(../media/images/servicios.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+#boxservicios:hover{
+    opacity: 1;
+}
+#boxcontacto{
+    background-image: url(../media/images/contacto.jpg);
+    opacity: 0.5;
+}
+#boxcontacto:hover{
+    opacity: 1;
+}
+#boxpresupuesto{
+    background-image: url(../media/images/presupuesto.jpg);
+    opacity: 0.5;
+}
+#boxpresupuesto:hover{
+    opacity: 1;
+}
+#boxecologismo {
+    background-image: url(../media/images/ecologia.jpg);
+    opacity: 0.5;
+}
+#boxecologismo:hover {
+    opacity: 1;
+}
+a.fill-div{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
 figcaption {
 	background-color:#CCC;
