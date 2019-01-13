@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/general.css"/>
     <link rel="stylesheet" href="estilos/index.css"/>
     <link rel="stylesheet" href="estilos/menugeneral.css"/>
-    <link rel="icon" type="image/png" href="estilos/images/favicon.png"/>
+    <link rel="icon" type="image/png" href="media/images/favicon.png"/>
     <meta name="description" content="Proyecto HMTL5"/>
     <meta name="keywords" content="HMTL5, CSS3, IES Pere Maria"/>
     <meta charset="utf-8" />
@@ -19,7 +19,7 @@
 <body>
     <div id="wrapper">
         <header id="head">
-            <h1><strong><em>Clima <mark id="hotto">Hotto</mark></em></strong></h1>
+            <h1 id=headertext>Clima<mark id="hotto">Hotto</mark></h1>
         </header>
         <nav id="navi">
             <ul>
@@ -52,10 +52,10 @@
             </blockquote>
         </aside>
         <section id="main_section">
-            <article class="lilbox1">
-                <h2>Nuestros <a href="servicios.html">servicios</a>.</h2>
+            <article>
+                <h2>Nuestros <a href="servicios.html" class="h2enlace">servicios</a></h2>
                 <figure>
-                    <video width="322" height="240" controls>
+                    <video width="467" height="240" controls>
                         <source src="media/video/brico.mp4"/>
                         <source src="media/video/brico.webm"/>
                         Tu navegador no soporta la etiqueta video.
@@ -63,16 +63,16 @@
                     <figcaption>Demostración de como montamos un equipo.</figcaption>
                 </figure>
             </article>
-            <article class="lilbox2">
-
+            <article id="boxcontacto" onclick="location.href='contacto.html'">
+                
             </article>
             <div id="hueco">
                 <!--clear both-->
             </div>
             <article class="lilbox2">
-
+				
             </article>
-            <article class="lilbox1">
+            <article>
 
             </article>
         </section>
