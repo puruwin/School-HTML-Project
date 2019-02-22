@@ -1,19 +1,48 @@
+@font-face {
+    font-family: General;
+    src: url(/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: headers;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate(-1px, 0);
+    }
+    
+    20%, 80% {
+        transform: translate(2px, 0);
+    }
+  
+    30%, 50%, 70% {
+        transform: translate(-4px, 0);
+    }
+  
+    40%, 60% {
+        transform: translate(4px, 0);
+    }
+}
+
+
 html {
     font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: General, sans-serif;
 }
 a{
-    font-family: "ubuntu", sans-serif;
+    font-family: General, sans-serif;
     text-decoration: none;
 }
 p {
-    font-family: "Ubuntu", sans-serif;
+    font-family: General, sans-serif;
 }
 h1{
-    font-family: "Lato", sans-serif
+    font-family: headers, sans-serif;
 }
 mark{
-	    color:#FF7A19;
+	color:#FF7A19;
 }
 .fill-div{
     display: block;
@@ -52,8 +81,10 @@ mark{
     text-align: center;
 }
 #head h1{
+    animation: shake 1s ease-in-out both;
     color: #16eaff;
 }
+
 /*Navegación*/
 #navi {
 	background-color: #24292E;
@@ -70,6 +101,9 @@ mark{
 	font-family: arial;
 	text-align: center;
 }
+#navi li {
+    animation: naviJump, 1.5s, ease, both;
+}
 #navi li a {
 	padding: 12px 19px 12px 19px;
     font-weight: bold;
@@ -78,7 +112,8 @@ mark{
     text-decoration: none;
     transition: 0.4s;
 }
-#navi li a:hover {
+#navi li a {
+    animation: naviJump, 1.5s, ease, both;
     border-bottom: solid;
     border-color: #00A3B2;
     border-width: 0.2rem;

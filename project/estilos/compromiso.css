@@ -1,3 +1,9 @@
+@keyframes slide-in{
+    100% {
+        left: 0;
+    }
+}
+
 /*Cajitas*/
 article{
     background-color: rgb(221, 221, 221, 0.7);
