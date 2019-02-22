@@ -102,7 +102,6 @@ mark{
 	text-align: center;
 }
 #navi li {
-    animation: naviJump, 1.5s, ease, both;
 }
 #navi li a {
 	padding: 12px 19px 12px 19px;
@@ -113,7 +112,6 @@ mark{
     transition: 0.4s;
 }
 #navi li a {
-    animation: naviJump, 1.5s, ease, both;
     border-bottom: solid;
     border-color: #00A3B2;
     border-width: 0.2rem;

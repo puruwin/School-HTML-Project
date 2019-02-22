@@ -36,8 +36,11 @@ article h2{
     text-align: justify;
 }
 #manifiesto{
+    left: -500px;
     height: 210px;
     margin-left: 34%;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
 }
 figcaption {
 	background-color:#79f4ff;
