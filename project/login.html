@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Clima Hotto</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="estilos/reset.css"/>
+    <link rel="stylesheet" href="estilos/general.css"/>
+    <link rel="stylesheet" href="estilos/presupuesto.css"/>
+
+    <script src="scripts/presupuesto.js"></script>
+    <script src="scripts/functions/date.js"></script>
+    <script src="scripts/functions/alert.js"></script>
+    <script src="scripts/functions/keyHandler.js"></script>
+    <script src="scripts/login.js"></script>
+
+    <link rel="icon" type="image/png" href="media/images/favicon.png"/>
+
+    <meta name="description" content="Proyecto HMTL5"/>
+    <meta name="keywords" content="HMTL5, CSS3, IES Pere Maria"/>
+
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="wrapper">
+        <header id="head">
+            <h1>Clima<mark id="hotto">Hotto</mark></h1>
+        </header>
+        <nav id="navi">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="compromiso.html">Nuestro compromiso</a>
+                </li>
+                <li>
+                    <a href="presupuesto.html">Presupuesto</a>
+                </li>
+                <li>
+                    <a class="active" href="login.html">Regístrate</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="main_section">
+            <article>
+                <section>
+                    <h2><mark class="markarticle">Tu Contacto</mark></h2>
+                    <figure id="formbox">
+                        <form id="formulario" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi">
+                        <input type="hidden" id="recipient" name="recipient" value="taborlindp@gmail.com"/>
+                        <label for="username">Nombre de usuario</label>
+                        <input class="input" type="text" id="username" name="username" placeholder="Escribe aquí..." />
+                        <label for="password">Contraseña</label>
+                        <input class="input" type="text" id="password" name="password" placeholder="Escribe aquí..." />
+                        <label for="correo">Correo</label>
+                        <input class="input" type="text" id="correo" name="correo" placeholder="Escribe aquí..." />
+                        <label for="confirmacion">Confirmación</label>
+                        <input class="input" type="text" id="confirmacion" name="correo" placeholder="Vuelve a escribir tu correo..." />
+                        <label for="texta">Dános más información:</label>
+                            <textarea class="input" id="texta" name="masinfo" rows="5" cols="400"></textarea>
+                            <p id="count">Número de caracteres:</p>
+                        <input class="limpiar" type="button" value="LIMPIAR" onclick="vaciarTextarea();">
+                        <div id="btn_form">
+                            <input class="almacenar" type="reset" value="REGISTRARSE" onclick="almacenar();">
+                            <input class="mostrar" type="button" value="MOSTRAR REGISTROS" onclick="mostrar();">
+                        </div>
+                        </form>
+                    </figure>
+                </section>
+            </article>
+            </section>
+            <div id="hueco">
+                <!--clear both-->
+            </div>
+            <footer id="foot">
+                <a href="mailto:taborlindp@gmail.com">&#9993;¡Contacta con nosotros!</a>
+                <p></p>
+                <small>Derechos reservados &copy; 2019 David Pérez Martínez</small>
+                <p id="time"></p>
+                <a href="http://github.com/puruwin">David Pérez Martínez.</a>
+            </footer>
+    </div>
+</body>
+</html>

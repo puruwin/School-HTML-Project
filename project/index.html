@@ -3,35 +3,49 @@
 
 <head>
     <title>Clima Hotto</title>
+
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
+
     <link rel="stylesheet" href="estilos/reset.css"/>
     <link rel="stylesheet" href="estilos/general.css"/>
     <link rel="stylesheet" href="estilos/index.css"/>
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/functions/date.js"></script>
+    <script src="scripts/functions/alert.js"></script>
+    <script src="scripts/functions/keyHandler.js"></script>
+    <script src="scripts/functions/banner.js"></script>
+
     <link rel="icon" type="image/png" href="media/images/favicon.png"/>
+
     <meta name="description" content="Proyecto HMTL5"/>
     <meta name="keywords" content="HMTL5, CSS3, IES Pere Maria"/>
+
     <meta charset="utf-8"/>
 </head>
 
 <body>
     <div id="wrapper">
         <header id="head">
-            <h1 id=headertext>Clima<mark id="hotto">Hotto</mark></h1>
+            <h1 id="headertext">Clima<mark id="hotto">Hotto</mark></h1>
         </header>
         <nav id="navi">
             <ul>
                 <li>
                     <a class="active" href="index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
+                <li class="dropdown"><a href="servicios.html">Servicios</a>
+
                 </li>
                 <li>
                     <a href="compromiso.html">Nuestro compromiso</a>
                 </li>
                 <li>
                     <a href="presupuesto.html">Presupuesto</a>
+                </li>
+                <li>
+                    <a href="login.html">Regístrate</a>
                 </li>
                 <li>
                     <a href="contacto.html">Contacto</a>
@@ -49,30 +63,17 @@
                 <a href="presupuesto.html">>>>Introduce tus datos aquí para que te hagamos una visita.</a>
             </blockquote>
         </aside>
-        <section id="main_section">
-            <article id="boxservicios">
-                <a href="servicios.html" class="fill-div"></a>
-            </article>
-            <article id="boxcontacto">
-                <a href="contacto.html" class="fill-div"></a>
-            </article>
-            <div id="hueco">
-                <!--clear both-->
-            </div>
-            <article id="boxpresupuesto">
-                <a href="presupuesto.html" class="fill-div"></a>
-            </article>
-            <article id="boxecologismo">
-                <a href="compromiso.html" class="fill-div"></a>
-            </article>
+        <section id="banner">
         </section>
         <footer id="foot">
             <a href="mailto:taborlindp@gmail.com">&#9993;¡Contacta con nosotros!</a>
             <p></p>
             <small>Derechos reservados &copy; 2019 David Pérez Martínez</small>
-            <p>Benidorm. 2019.</p>
+            <p id="time"></p>
             <a href="http://github.com/puruwin">David Pérez Martínez.</a>
         </footer>
     </div>
+    
+    <script src="scripts/functions/assets.js"></script>
 </body>
 </html>

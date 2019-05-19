@@ -39,14 +39,17 @@ article h2{
     color: #16eaff;
     text-align: center;
 }
+label {
+    text-align:left;
+}
 .markarticle {
     background-color: transparent;
     text-shadow: 0 0 3px #000;
 }
-.input, .btn_submit, .btn_reset {
+.input, .btn_submit, .btn_reset, .almacenar, .mostrar, .limpiar {
     background-color: #efefef;
     padding: 8px;
-    margin: 8px 0;
+    margin: 0 0 20px 0;
     border: none;
     border-bottom: solid #c8c8c8 3px;
     transition: all .5s;
@@ -68,22 +71,36 @@ article h2{
     border-bottom: solid #ff7a19 3px;
 }
 
-.btn_submit, .btn_reset {
+.btn_submit, .btn_reset, .almacenar, .mostrar, .limpiar {
+    display: inline-block;
     width: 40%;
     border-bottom: none;
     background-color: #31b1e5;
     color: white;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
-.btn_reset {
+
+.btn_reset, .almacenar {
     background-color: #ff7a19;
 }
 
-.btn_submit:hover {
+.limpiar {
+    margin-bottom: 3rem;
+}
+
+.btn_submit:hover, .mostrar:hover, .limpiar:hover {
     background-color: #4c9ed9;
 }
 
-.btn_reset:hover {
+.btn_reset:hover, .almacenar:hover{
     background-color: #d36517;
+}
+
+#count {
+    text-align:left;
+    margin-bottom: 16px;
 }
 #formbox {
     max-width: 480px;
@@ -97,6 +114,12 @@ article h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+textarea {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
 }
 figcaption {
 	background-color:#79f4ff;

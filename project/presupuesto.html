@@ -3,16 +3,25 @@
 
 <head>
     <title>Clima Hotto</title>
+
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
+
     <link rel="stylesheet" href="estilos/reset.css"/>
     <link rel="stylesheet" href="estilos/general.css"/>
     <link rel="stylesheet" href="estilos/presupuesto.css"/>
+
+    <script src="scripts/general.js"></script>
+    <script src="scripts/functions/date.js"></script>
+    <script src="scripts/functions/alert.js"></script>
+    <script src="scripts/functions/keyHandler.js"></script>
+
     <link rel="icon" type="image/png" href="media/images/favicon.png"/>
+
     <meta name="description" content="Proyecto HMTL5"/>
     <meta name="keywords" content="HMTL5, CSS3, IES Pere Maria"/>
-    <meta charset="utf-8" />
 
+    <meta charset="utf-8" />
 </head>
 <body>
     <div id="wrapper">
@@ -32,6 +41,9 @@
                 </li>
                 <li>
                     <a class="active" href="presupuesto.html">Presupuesto</a>
+                </li>
+                <li>
+                    <a href="login.html">Regístrate</a>
                 </li>
                 <li>
                     <a href="contacto.html">Contacto</a>
@@ -89,13 +101,13 @@
             <div id="hueco">
                 <!--clear both-->
             </div>
-        <footer id="foot">
-            <a href="mailto:taborlindp@gmail.com">&#9993;¡Contacta con nosotros!</a>
-            <p></p>
-            <small>Derechos reservados &copy; 2019 David Pérez Martínez</small>
-            <p>Benidorm. 2019.</p>
-            <a href="http://github.com/puruwin">David Pérez Martínez.</a>
-        </footer>
+            <footer id="foot">
+                <a href="mailto:taborlindp@gmail.com">&#9993;¡Contacta con nosotros!</a>
+                <p></p>
+                <small>Derechos reservados &copy; 2019 David Pérez Martínez</small>
+                <p id="time"></p>
+                <a href="http://github.com/puruwin">David Pérez Martínez.</a>
+            </footer>
     </div>
 </body>
 </html>
