@@ -8,6 +8,9 @@ window.onload = function(){
 
     autoFocus();
 
+    document.getElementById("dropdownHover").onmouseover = mostrarDrop;
+    document.getElementById("dropdownHover").onmouseout = mostrarDrop;
+
     setInterval(charCount, 0);
 }
 

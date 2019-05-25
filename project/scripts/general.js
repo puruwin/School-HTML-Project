@@ -4,5 +4,8 @@ window.onload = function(){
 
     setTimeout(muestraAlert, 500);
 
+    document.getElementById("dropdownHover").onmouseover = mostrarDrop;
+    document.getElementById("dropdownHover").onmouseout = mostrarDrop;
+
     goChange();
 }

@@ -5,6 +5,9 @@ window.onload = function(){
     setTimeout(muestraAlert, 500);
 
     setInterval(slide,3000);
+    
+    document.getElementById("dropdownHover").onmouseover = mostrarDrop;
+    document.getElementById("dropdownHover").onmouseout = mostrarDrop;
 
     goChange();
 }
