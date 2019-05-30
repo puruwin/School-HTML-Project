@@ -10,6 +10,8 @@ window.onload = function(){
 
     document.getElementById("dropdownHover").onmouseover = mostrarDrop;
     document.getElementById("dropdownHover").onmouseout = mostrarDrop;
+    
+    document.getElementById("almacenar").addEventListener("click", validarForm, false);
 
     setInterval(charCount, 0);
 }

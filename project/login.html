@@ -16,6 +16,7 @@
     <script src="scripts/functions/alert.js"></script>
     <script src="scripts/functions/keyHandler.js"></script>
     <script src="scripts/functions/dropdown.js"></script>
+    <script src="scripts/functions/validation.js"></script>
     <script src="scripts/login.js"></script>
 
     <link rel="icon" type="image/png" href="media/images/favicon.png"/>
@@ -92,7 +93,7 @@
                             <p id="count">Número de caracteres:</p>
                         <input class="limpiar" type="button" value="LIMPIAR" onclick="vaciarTextarea();">
                         <div id="btn_form">
-                            <input class="almacenar" type="reset" value="REGISTRARSE" onclick="almacenar();">
+                            <input id="almacenar" class="almacenar" type="reset" value="REGISTRARSE">
                             <input class="mostrar" type="button" value="MOSTRAR REGISTROS" onclick="mostrar();">
                         </div>
                         </form>
